@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Mahasiswa</title>
+    <link rel="stylesheet" href="/No 1/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="info">Pendaftaran Mahasiswa Baru</h2>
+
+    
+    <form action="#">
+        <label for="NPM">NPM (Nomor Pokok Mahasiswa)</label>
+        <input type="number">
+
+        <label for="Nama">Nama Lengkap</label>
+        <input type="text" required>
+
+        <label for="Alamat">Alamat</label>
+        <textarea name="Alamat" id="Alamat" rows="3" required></textarea>
+
+        <div class="radio-group">
+            <label for="jk">Jenis Kelamin</label>
+        <input type="radio" name="jk" id="jk" value="Laki-laki"> Laki-laki
+        <input type="radio" name="jk" id="jk" value="Perempuan"> Perempuan
+        </div>
+        
+        <label for="prodi">Program Studi</label>
+        <select id="prodi" name="prodi">
+            <option value="Teknik Informatika">Teknik Informatika</option>
+            <option value="Sistem Informasi">Sistem Informasi</option>
+            <option value="Teknik Elektro">Teknik Elektro</option>
+            <option value="Manajemen">Manajemen</option>
+            <option value="Ilmu Hukum">Ilmu Hukum</option>
+            <option value="Teknik Mesin">Teknik Mesin</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>

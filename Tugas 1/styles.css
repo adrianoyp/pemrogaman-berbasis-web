@@ -1,0 +1,55 @@
+body {
+    font-family: Poppins;
+    margin: 40px;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.category {
+    font-size: 14px;
+    color: gray;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.author {
+    font-size: 14px;
+    color: gray;
+}
+
+
+ol li {
+    margin: 5px 0;
+}
+
+ol li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.dropcap {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    margin-right: 5px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.citation {
+    font-style: italic;
+    color: gray;
+    font-size: 14px;
+}
